@@ -1,14 +1,12 @@
-import { Container } from "./components/container/container";
 import { Header } from "./components/header/header";
+import { Navigation } from "./components/navigation/navigation";
 
 export const App = () => {
   return (
     <>
     <Header/>  
     <main>
-<nav>
-  <Container maks = 'leskin' className = "navigation__container" />
-</nav>
+<Navigation/>
 <section></section>
     </main>
     <footer></footer>
