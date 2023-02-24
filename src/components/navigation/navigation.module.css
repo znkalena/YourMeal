@@ -50,27 +50,27 @@
   }
   
   .button_burger {
-    background-image: url('../../assets/img/burger.png');
+    background-image: url('/src/assets/img/burger.png');
   }
   
   .button_snack {
-    background-image: url('../../assets/img/snack.png');
+    background-image: url('/src/assets/img/snack.png');
   }
   
   .button_hotdog {
-    background-image: url('../../assets/img/hot-dog.png');
+    background-image: urlassets('/src/assets/img/hot-dog.png');
   }
   
   .button_combo {
-    background-image: url('../../assets/img/combo.png');
+    background-image: url('/src/assets/img/combo.png');
   }
   
   .button_shawarma {
-    background-image: url('../../assets/img/shawarma.png');
+    background-image: url('/src/assets/img/shawarma.png');
   }
   
   .button_pizza {
-    background-image: url('../../assets/img/pizza.png');
+    background-image: url('/src/assets/img/pizza.png');
   }
   
   .button_wok {
@@ -82,7 +82,7 @@
   }
   
   .button_sauce {
-    background-image: url('../img/sauce.png');
+    background-image: url('/src/assets/img/sauce.png');
   }
   
   

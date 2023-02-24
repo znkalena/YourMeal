@@ -1,39 +1,40 @@
-import { Container } from '../container/container';
-import style from './navigation.module.css';
+import classNames from 'classnames';
+import { Container } from '../Container/Container';
+import style from './Navigation.module.css';
 
 export const Navigation = () => {
     return(
     <nav className={style.navigation}>
-      <Container className={style.container}>
+      <Container className={style.container}>      
         <ul className={style.list}>
           <li className={style.item}>
-            <button className={classNames(style.button,button_burger, style.button_active)}>Бургеры</button>
+            <button className={classNames(style.button, style.button_burger, style.button_active)}>Бургеры</button>
           </li>
           <li className={style.item}>
-            <button className={classNames(style.button,button_snack)}>Закуски</button>
+            <button className={classNames(style.button,style.button_snack)}>Закуски</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_hotdog)}>Хот-доги</button>
+            <button className={classNames (style.button,style.button_hotdog)}>Хот-доги</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_combo)}>Комбо</button>
+            <button className={classNames (style.button,style.button_combo)}>Комбо</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_shawarma)}>Шаурма</button>
+            <button className={classNames (style.button,style.button_shawarma)}>Шаурма</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_pizza)}>Пицца</button>
+            <button className={classNames (style.button,style.button_pizza)}>Пицца</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_wok)}>Вок</button>
+            <button className={classNames (style.button,style.button_wok)}>Вок</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_dessert)}>Десерты</button>
+            <button className={classNames (style.button,style.button_dessert)}>Десерты</button>
           </li>
           <li className={style.item}>
-            <button className={classNames (style.button,button_sauce)}>Соусы</button>
+            <button className={classNames (style.button,style.button_sauce)}>Соусы</button>
           </li>
-        </ul>
+        </ul>        
       </Container>
     </nav>
     )
