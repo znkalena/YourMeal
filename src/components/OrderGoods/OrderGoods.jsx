@@ -14,7 +14,7 @@ export const OrderGoods = ({item}) => (
                         <span className="currency">₽</span>
         </p>
     </div>
-    <Count count ={99}/>
+    <Count count ={3}/>
 </li>
 
 )
