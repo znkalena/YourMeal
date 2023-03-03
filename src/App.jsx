@@ -1,19 +1,19 @@
-import { Container } from "./components/container/container";
-import { Header } from "./components/header/header";
+import { Catalog } from "./components/Catalog/Catalog";
+import { Header } from "./components/Header/Header";
+import { Navigation } from "./components/Navigation/Navigation";
+import { Provider } from "react-redux";
+import { store } from "./index.js";
 
 export const App = () => {
   return (
-    <>
+    <Provider store={store}>
     <Header/>  
     <main>
-<nav>
-  <Container maks = 'leskin' className = "navigation__container" />
-</nav>
-<section></section>
+<Navigation/>
+<Catalog/>
     </main>
     <footer></footer>
-    </>
-    
+    </Provider>   
   )   
 };
 
